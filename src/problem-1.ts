@@ -8,7 +8,8 @@ function sumArray(arr: number[]): number {
   return sum;
 }
 
-sumArray([1, 2, 3, 4, 5]);
+// Sample Input:
+// console.log(sumArray([1, 2, 3, 4, 5]));
 
 /* 
   Note:

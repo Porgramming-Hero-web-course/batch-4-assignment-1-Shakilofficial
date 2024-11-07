@@ -27,6 +27,7 @@ function calculateShapeArea(shape: TShape): number {
 }
 
 
+/* 
 const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
 
 const rectangleArea = calculateShapeArea({
@@ -34,6 +35,11 @@ const rectangleArea = calculateShapeArea({
   width: 4,
   height: 6,
 });
+
+console.log("Area of Circle:", circleArea,);
+console.log("Area of Rectangle:", rectangleArea); 
+
+*/
 
 /* 
 Note: 

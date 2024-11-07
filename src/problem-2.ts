@@ -7,7 +7,7 @@ function removeDuplicates(arr: number[]): number[] {
   return [...new Set(arr)];
 }
 
-removeDuplicates([1, 2, 2, 3, 4, 4, 5])
+// console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
 
 /* 
 Note: Use Set to remove duplicates, then spread it back into an array
