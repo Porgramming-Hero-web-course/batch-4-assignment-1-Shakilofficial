@@ -101,14 +101,14 @@ interface Designer {
 type Employee = Developer | Designer;
 
 const employee1: Employee = {
-  name: "Bob Johnson",
+  name: "Md Shakil Hossain",
   role: "Front-end developer",
   programmingLanguages: ["JavaScript", "TypeScript"],
   experienceYears: 5,
 };
 const employee2: Employee = {
-  name: "Alice Smith",
-  role: "UI Designer",
+  name: "Nishat Hossain",
+  role: "UI/UX Designer",
   designTools: ["Photoshop", "Figma"],
   experienceYears: 5,
 };
@@ -143,7 +143,7 @@ type FullstackDeveloper = FrontendDeveloper & BackendDeveloper;
 
 const developer1: FullstackDeveloper = {
   id: "1",
-  name: "Michael Johnson",
+  name: "Shakil Hossain",
   frontendSkills: ["HTML", "CSS", "JavaScript", "React", "Redux"],
   backendSkills: ["Nodejs", "Express", "Mongodb", "PostgreSQL"],
 };
@@ -180,10 +180,10 @@ type Employee = {
 type EmployeeFullDetails = People & Employee;
 
 const employee1: EmployeeFullDetails = {
-  name: "John Doe",
+  name: "Firoz",
   age: 30,
   id: "123456",
-  companyName: "TechCorp",
+  companyName: "Programming Hero",
   salary: 80000,
   designation: "Senior Software Engineer",
 };
